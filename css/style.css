@@ -1,0 +1,202 @@
+.info {
+padding: 6px 8px;
+width: 240px;
+text-align: left;
+font: 14px/16px Arial, Helvetica, sans-serif;
+background: white;
+background: rgba(255,255,255,0.8);
+box-shadow: 0 0 15px rgba(0,0,0,0.2);
+border-radius: 5px;
+}
+.info h4 {
+margin: 0 0 5px;
+color: #777;
+}
+
+.info i {
+width: 30px;
+height: 30px;
+float: left;
+margin-right: 8px;
+opacity: 0.7;
+}
+
+.info j {
+width: 15px;
+height: 15px;
+float: left;
+margin-right: 8px;
+opacity: 0.7;
+}
+
+.legend {
+text-align: left;
+line-height: 18px;
+color: #555;
+}
+.legend i {
+width: 18px;
+height: 18px;
+float: left;
+margin-right: 8px;
+opacity: 0.7;
+}
+
+table {
+text-align:  center;
+font-size: 12px;
+}
+
+.axis path,
+.axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.bar {
+fill: orange;
+}
+
+.bar:hover {
+fill: orangered ;
+}
+
+.x.axis path {
+display: none;
+}
+
+.d3-tip {
+line-height: 1;
+font-weight: bold;
+padding: 12px;
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+box-sizing: border-box;
+display: inline;
+font-size: 10px;
+width: 100%;
+line-height: 1;
+color: rgba(0, 0, 0, 0.8);
+content: "\25BC";
+position: absolute;
+text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+margin: -1px 0 0 0;
+top: 100%;
+left: 0;
+}
+
+.whisker line,
+.median line,
+.box rect, {
+fill: #fff;
+stroke: #000;
+stroke-width: 1px;
+shape-rendering: crispEdges;
+}
+
+circle {
+fill: #ECE7F2;
+stroke: none;
+shape-rendering: crispEdges;
+}
+
+.outlier {
+stroke: black;
+stroke-width: 2px;
+}
+
+.point {
+opacity: 0.25;
+}
+
+.axis path {
+fill: none;
+stroke: black;
+stroke-width: 1px;
+shape-rendering: crispEdges;
+}
+
+.axis line {
+fill: none;
+stroke: black;
+stroke-width: 1px;
+shape-rendering: crispEdges;
+}
+
+.axis text {
+font-size: 10px;
+}
+
+/* styling for page tabs*/
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    font-family: arial;
+}
+
+/* onoff switch*/
+.onoffswitch {
+    font-family: arial;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    z-index: 99;
+    overflow: auto;
+    background-color: white;
+}
+.onoffswitch > div {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 12px 0px 0px 0px;
+}
+.onoffswitch > div:hover {
+    background-color: rgba(240,240,240,1);
+}
+.onoffswitch div.selected {
+    background-color: black;
+    color: white;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
